@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family:sans-serif;
+    background-color: bisque;
+}
+#wrapper h2{
+    display: flex; /*eduthu paakanum */
+    justify-content: center;
+}
+h2{
+    color: #ffeba7;
+    letter-spacing: 1px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+input:active{
+    border:none;
+}
+button{
+    padding: 12px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#wrapper{
+
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+}
